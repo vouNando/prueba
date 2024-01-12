@@ -1,0 +1,46 @@
+.navbar-brand {
+  color: rgb(255, 255, 255);
+}
+.container-fluid {
+  background-color: rgb(0, 0, 0);
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+.nav-inicio {
+  color: rgb(255, 255, 255);
+}
+.titulo2 {
+  color: rgb(45, 212, 224);
+}
+.mi-boton {
+  background-color: rgb(42, 111, 190);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.caja-1{
+text-align: center;
+margin-left: 90px;
+margin: 90px;
+order: 1;
+}
+.pie-pagina{
+  text-align: center;
+
+}
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+.columna{
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: left;
+}
