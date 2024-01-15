@@ -1,0 +1,71 @@
+.titulo1{
+    text-align: center;
+    color: white;
+    
+}
+
+.titulo2{
+    color: white;
+    text-align: center;
+}
+.boton{
+    text-align: center;
+}
+.card{
+    background-color: black;
+  
+}
+.card-title{
+ 
+}
+.col{
+    background-color: black;
+    
+
+}
+.card-text{
+
+}
+.img{
+    text-align: center;
+}
+.card{
+    flex: 0 0 18rem;
+    margin-right: 2px;
+    margin-left: 65px;
+}
+.card-general{
+    text-align: center;
+    display: flex;
+  
+  }
+  .titulo3{
+    text-align: center;
+    color: #000;
+  }
+  .mi-boton{
+    background-color: rgb(3, 3, 167);
+    color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  }
+  .clearfix{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .columna{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: left;
+  }
+  .parrafo-final{
+    text-align: left;
+    font-size: 0.5em;
+    margin-left: 40px;
+  }

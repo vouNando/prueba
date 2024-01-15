@@ -1,0 +1,68 @@
+.titulo1{
+    text-align: center;
+}
+.titulo2{
+    text-align: center;
+}
+.mi-boton{
+    background-color: rgb(3, 3, 167);
+    color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: right;
+
+  }
+  .p{
+    padding: 20px;
+    margin: 10px;
+  }
+  .imagen{
+    float: right;
+    width: 50%;
+    padding: 30px;
+  }
+  .parrafos{
+   float: left;
+   width: 50%;
+   padding: 10px;
+  }
+  .contenedor{
+    width: 100%;
+    overflow: hidden;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .titulo4{
+    text-align: center;
+  }
+  .mono{
+    margin-left: 315px;
+  }
+  .mono2{
+    margin-left: 315px;
+  }
+  .pie-pagina{
+    text-align: center;
+  
+  }
+ 
+  .columna{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: left;
+  }
+  .parrafo-final{
+    text-align: left;
+    font-size: 0.5em;
+    margin-left: 40px;
+  }
+  

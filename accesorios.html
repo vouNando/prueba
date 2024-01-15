@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="icon"
+    href="imagenes/logotipo-de-playstation.png"
+    type="image/x-icon"
+  />
+    <style>
+        header {
+          background-color: #ffffff;
+          padding: 20px;
+          text-align: left;
+          color: rgb(0, 0, 0);
+        }
+        p {
+          margin-bottom: 10px;
+        }
+        footer {
+          background-color: #00439c;
+          color: white;
+          padding: 10px;
+          text-align: center;
+        }
+      </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/diseñoAcsesorios.css" />
+
+
+    <title>Accesorios</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="playstation.html">PlayStation</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="juegos.html"
+                >Juegos
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="compras.html">Compras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servivios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >PS5</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="search"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Carousel-->
+    <div class="titulo1">
+      <h2>Útimos accesorios de PlayStation</h2>
+      <p>
+        Haz clic para ver más sobre los increíbles accesorios de PlayStation que
+        ya están disponibles o están por llegar.
+      </p>
+    </div>
+    <div class="carrusel1">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="imagenes2/access-controller-image-block-01-en-12may23.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imagenes2/PULSE-Elite-headset-thumbnail-02-en-12sep23.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="imagenes2/PULSE-Explore-earbuds-thumbnail-01-en-12sep23.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          style="color: black"
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Cartas-->
+    <div class="titulo1">
+      <h2>Controles inalámbricos</h2>
+      <p>Toma el control de tus juegos y de tu entretenimiento</p>
+    </div>
+    <div class="boton">
+      <button type="button" class="btn btn-outline-primary" disabled>
+        controles PS5
+      </button>
+      <button type="button" class="btn btn-outline-secondary" disabled>
+        Controles PS4
+      </button>
+    </div>
+
+    <!--Control-->
+
+    <header>
+      <div class="contenedor-clearfix">
+        <div class="parrafos">
+          <img
+            class="mono"
+            src="imagenes/baso.gif"
+            alt="gifi"
+            width="200px"
+            height="200px"
+          />
+          <h2 class="titulo4">Control inalámbrico DualSense®</h2>
+          <p>
+            El innovador control de la PS5, que incluye respuesta háptica1 y
+            efectos de gatillo dinámicos1, ya está disponible en una variedad de
+            colores y modelos. Más información
+          </p>
+        </div>
+        <div class="imagen">
+          <img
+            src="imagenes2/controlblanco.jpeg"
+            alt=""
+            width="600px"
+            height="400px"
+          />
+        </div>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <div class="button1">
+        <button class="mi-boton">Ahorra Ya</button>
+      </div>
+    </header>
+    <hr />
+    <!--Carousel-->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="imagenes2/audifonos.png"
+            class="d-block w-100"
+            alt="juegos"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="titulo2">
+      <h2 class="titulo3">Auriculares inalámbricos PULSE 3D™</h2>
+      <p>
+        Mejora tu experiencia auditiva en los juegos con unos auriculares aptos
+        para audio 3D en consolas PS51 y con compatibilidad de sonido envolvente
+        virtual 7.1 para la consola PS4, además de micrófonos ocultos para que
+        el chat del juego se escuche mejor que nunca.
+      </p>
+    </div>
+    <header class="compra">
+      <h2>Controles de especialidad</h2>
+      ¿Prefieres jugar por carretera o en el cielo? Esta variedad de controles
+      con licencia oficial te dan el manejo y la agilidad que necesitas.
+
+      <!--Carousel-->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="imagenes2/mandos.jpeg"
+              class="d-block w-100"
+              alt="juegos"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Volantes de carreras</h5>
+                <p class="card-text">
+                  Siente una conexión aún mayor con la carretera con un volante
+                  de licencia oficial, disponibles de una gran variedad de
+                  marcas pioneras de la simulación de carreras..
+                </p>
+                <p>US$500.00</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Joystick de vuelo t-flight hotas 4</h5>
+                <p class="card-text">
+                  Surca los cielos y domina por completo el vuelo en consolas
+                  PS4 o PS5 con el acelerador de alta respuesta y tamaño real..
+                </p>
+                <p>US$350.00</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </header>
+    <div class="titulo5">
+      <h2>Complementos de la consola PS5</h2>
+      <p>Mejora el hardware de tu consola PS5 con accesorios acoplables.</p>
+    </div>
+    <!--Carousel-->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="imagenes2/componentes.jpeg"
+            class="d-block w-100"
+            alt="juegos"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Soporte vertical para consolas PS5</h5>
+            <p class="card-text">
+              Pon a tu consola PS5 de pie con mucho estilo: el soporte vertical
+              para PS5 mantendrá tu consola segura y en posición vertical.
+            </p>
+            <p>US$30.00</p>
+            <a href="#" class="btn btn-primary1">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              Unidad de disco para consolas PS5 edición digital
+            </h5>
+            <p class="card-text">
+              Descubre juegos y películas con discos Blu-ray™ incorporando una
+              unidad de disco a tu consola PlayStation®5 edición digital.
+            </p>
+            <p>US$150.00</p>
+            <a href="#" class="btn btn-primary1">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <header class="ps5">
+      <div class="contenedor-clearfix">
+        <div class="parrafos2">
+          <img
+            class="mono2"
+            src="imagenes/gifif.gif"
+            alt="gifi"
+            width="115px"
+            height="115px"
+          />
+          <h2 class="titulo6">Cubiertas de consola PS5</h2>
+          <p>
+            Combina tu control inalámbrico DualSense con una cubierta de consola
+            PS5 que haga juego.
+          </p>
+        </div>
+        <div class="imagen2">
+          <img src="imagenes2/ps5.jpeg" alt="" width="600px" height="300px" />
+        </div>
+      </div>
+
+      <div class="button2">
+        <button class="mi-boton2">Ahorra Ya</button>
+      </div>
+    </header>
+
+    <!--Cartas-->
+    <div class="card-general" style="width: 18rem">
+      <div class="card">
+        <div class="card-body">
+          <img
+            src="imagenes2/ps5blanco.jpeg"
+            alt="pata"
+            height="100px"
+            width="200px"
+          />
+          <h5 class="card-title">Plata esterlina</h5>
+
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img
+            src="imagenes2/ps5negro.jpeg"
+            alt="pata"
+            height="100px"
+            width="200px"
+          />
+          <h5 class="card-title">Negro medianoche</h5>
+
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img
+            src="imagenes2/ps5rojo.jpeg"
+            alt="pata"
+            height="100px"
+            width="200px"
+          />
+          <h5 class="card-title">Rojo volcánico</h5>
+
+          <a href="#" class="btn btn-primary">Comprare</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <img
+            src="imagenes2/ps5morado.jpeg"
+            alt="pata"
+            height="100px"
+            width="200px"
+          />
+          <h5 class="card-title">Rojo cósmico</h5>
+
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <header class="ps4">
+      <div class="contenedor-clearfix">
+        <div class="parrafos3">
+          <img
+            class="mono2"
+            src="imagenes/gifif.gif"
+            alt="gifi"
+            width="115px"
+            height="115px"
+          />
+          <h2 class="titulo6">Reproductor portátil PlayStation Portal</h2>
+          <p>
+            Juega con tu PS5 a través de la red Wi-Fi de tu hogar y utiliza
+            controles de la misma calidad que tu consola con el reproductor
+            portátil PlayStation Portal4.
+          </p>
+        </div>
+        <div class="imagen3">
+          <img
+            src="imagenes2/mandorobot.jpeg"
+            alt=""
+            width="600px"
+            height="300px"
+          />
+        </div>
+      </div>
+
+      <div class="button2">
+        <button class="mi-boton2">Ahorra Ya</button>
+      </div>
+    </header>
+    <div style="text-align: center">
+      <img
+        src="imagenes2/iconocontrol.jpeg"
+        alt=""
+        width="150px"
+        height="100px"
+      />
+    </div>
+    <hr />
+    <hr />
+    <!--pie de pagina-->
+    <footer>
+      <div>
+        <img
+          src="imagenes/estacion-de-juegos (1).png"
+          alt="logo2"
+          height="50px"
+          width="50px"
+        />
+      </div>
+      <div style="text-align: center">
+        <h2 class="pie-pagina">PlayStation</h2>
+      </div>
+      <hr />
+      <div class="clearfix">
+        <div class="columna">
+          <h2>Acerca de</h2>
+          <p>Acerca de SIE</p>
+          <p>Carreras</p>
+          <p>PlayStation Studios</p>
+          <p>PlayStation Productions</p>
+          <p>Empresa</p>
+        </div>
+        <div class="columna">
+          <h3>Productos</h3>
+          <p>PS5</p>
+          <p>PS4</p>
+          <p>PS VR2</p>
+          <p>PS Plus</p>
+          <p>Accesorios</p>
+          <p>Juegos</p>
+        </div>
+        <div class="columna">
+          <h4>Valores</h4>
+          <p>Medioambiente</p>
+          <p>Accesibilidad</p>
+          <p>Seguridad Online</p>
+          <p>Diversidad, igualdad e inclusión</p>
+        </div>
+        <div class="columna">
+          <h5>Servicio Técnico</h5>
+          <p>Centro de Asistencia</p>
+          <p>Seguridad de PlayStation</p>
+          <p>Estado PSN</p>
+          <p>Reparaciones de PlayStation</p>
+        </div>
+        <div class="columna">
+          <h6>Recursos</h6>
+          <p>Términos de Servicio de PSN</p>
+          <p>Política de cancelación de PS Store</p>
+          <p>Clasificación por edad</p>
+          <p>Aviso sobre la salud</p>
+          <p>Desarrolladores</p>
+        </div>
+      </div>
+
+      <hr />
+      <div style="text-align: left">
+        <img src="imagenes/sony.png" alt="" />
+      </div>
+      <p class="parrafo-final">© 2023 Sony Interactive Entertainment LLC</p>
+      <p class="parrafo-final">
+        Todos los contenidos, títulos de juegos, nombres y/o imágenes
+        comerciales, marcas comerciales, arte e imágenes asociadas son marcas
+        comerciales y/o material con derechos de autor de sus propietarios
+        respectivos. Todos los derechos reservados.
+      </p>
+      <p class="parrafo-final">Más información</p>
+      <hr />
+      <p>Derechos de autor © 2024 Fernando Andrango</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

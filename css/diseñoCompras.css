@@ -1,0 +1,98 @@
+.mi-boton{
+    background-color: rgb(3, 3, 167);
+    color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: right;
+  margin-left: 60px;
+
+  }
+  .button1{
+    text-align: center;
+    margin-right: 50px;
+  }
+  .contenedor-flexible{
+    display: flex;
+    border: 5px cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 310px;
+    align-items: flex-start;
+  }
+  .caja-1{
+    text-align: center;
+    margin-left: 200px;
+    margin: 20px;
+    order: 1;
+  }
+  .caja-2{
+    text-align: center;
+    margin-left: 200px;
+    margin: 20px;
+    order: 2;
+  }
+  .caja-3{
+    text-align: center;
+    margin-left: 200px;
+    margin: 20px;
+    order: 3;
+  }
+  .caja-4{
+    text-align: center;
+    margin-left: 200px;
+    margin: 20px;
+    order: 4;
+  }
+  .caja-5{
+    text-align: center;
+    margin-left: 200px;
+    margin: 20px;
+    order: 4;
+  }
+
+  .contenedor-flexible2{
+    display: flex;
+    border: 5px cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 470px;
+    align-items: flex-start;
+    margin-left: 30px;
+  }
+  .titulo3{
+    margin-left: 80px;
+  }
+  .titulo4{
+    margin-left: 40px;
+    text-align: center;
+  }
+  .contenedor-flexible3{
+    display: flex;
+    border: 5px cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 310px;
+    align-items: flex-start;
+  }
+  .columna{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: left;
+  }.parrafo-final{
+    text-align: left;
+    font-size: 0.5em;
+    margin-left: 40px;
+  }

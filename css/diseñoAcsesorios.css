@@ -1,0 +1,178 @@
+.titulo1{
+    text-align: center;
+ 
+}
+.carousel-inner2{
+margin-left: 500px;
+}
+.carrusel1{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 30px;
+    margin-block-end: 30px;
+    
+}
+.boton{
+    text-align: center;
+}
+
+.imagen{
+    float: left;
+    width: 50%;
+    padding: 30px;
+  }
+  .parrafos{
+   float: right;
+   width: 50%;
+   padding: 10px;
+  }
+  .mono{
+    margin-left: 150px;
+  }
+  .titulo4{
+    margin-left: 50px;
+  }
+  .mi-boton{
+    background-color: rgb(3, 3, 167);
+    color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 250px;
+
+  }
+  .titulo2{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    
+  font-size: 0.5em;
+  
+  }
+  .titulo3{
+    font-size: 1.5em;
+  margin-left: 40px;
+  color: aqua;
+
+  }
+  .compra{
+    background-color:#121315;
+    color: white;
+    text-align: center;
+  }
+  .btn-primary{
+    background-color: #121315;
+  }
+  .titulo5{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .row{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .card-body{
+    text-align: center;
+  }
+  .btn-primary1{
+    background-color: rgb(3, 3, 167);
+    color: white;
+  }
+  .imagen2{
+    float: right;
+    width: 50%;
+    padding: 30px;
+  }
+  .parrafos2{
+   float: left;
+   width: 50%;
+   padding: 10px;
+   font-size: 1.1em;
+   
+  }
+  .titulo6{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 153, 255);
+    font-size: 0.9;
+    
+  }
+ .mono2{
+    margin-left: 300px;
+ }
+ .button2{
+    margin-left: 350;
+ }
+ .mi-boton2{
+    background-color: rgb(3, 3, 167);
+    color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 300px;
+
+  }
+  .card-body{
+    text-align: center;
+    
+ 
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .card-general{
+    text-align: center;
+    display: flex;
+   
+  
+  }
+.card{
+    flex: 0 0 18rem;
+    margin-right: 55px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.text-body-secondary{
+    background-color: rgb(84, 194, 245);
+}
+.imagen3{
+    float: left;
+    width: 50%;
+    padding: 30px;
+  }
+  .parrafos3{
+   float: right;
+   width: 50%;
+   padding: 10px;
+   font-size: 0.9em;
+   
+  }
+  .pie-pagina{
+    text-align: center;
+  
+  }
+  .clearfix{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .columna{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: left;
+  }
+  .parrafo-final{
+    text-align: left;
+    font-size: 0.5em;
+    margin-left: 40px;
+  }
+  

@@ -38,9 +38,15 @@ order: 1;
   display: table;
 }
 .columna{
-  width: 25%;
+  width: 20%;
   float: left;
   box-sizing: border-box;
-  padding: 30px;
+  padding: 40px;
   text-align: left;
 }
+.parrafo-final{
+  text-align: left;
+  font-size: 0.5em;
+  margin-left: 40px;
+}
+
